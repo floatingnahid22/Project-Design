@@ -10,7 +10,7 @@ npm install -g yarn
 
 # Then run these commands for style and formating:<br>
 
-<p>Prettier takes care of your code formatting, ESLint takes care of your code style. The former does everything automatically for you. If you have set up Prettier, you can configure it to format your file on saving it</p>
+<p>Prettier takes care of your code formatting, ESLint takes care of your code style. The former does everything automatically for you. If you have set up Prettier, you can configure it to format your file on saving it.</p>
 
 ```sh
 yarn add -D eslint prettier
@@ -35,7 +35,7 @@ npm i --save-dev nodemon
 # Then use these below codes:
 
 <p>in your project folder create a new folder called ".vscode" and inside this folder create a file called settings.json. After that copy and paste these below code.</p>
-<p>settings.json:</p>
+<p><b>settings.json:</b></p>
 
 ```sh
     {
@@ -48,7 +48,7 @@ npm i --save-dev nodemon
 ```
 
 <p>in your project folder create a file called .eslintrc.json. After that copy and paste these below code.</p>
-<p>.eslintrc.json:</p>
+<p><b>.eslintrc.json:</b></p>
 
 ```sh
     {
@@ -81,7 +81,7 @@ npm i --save-dev nodemon
 ```
 
 <p>Copy this script in your projects package.json file</p>
-<p>package.json:</p>
+<p><b>package.json:</b></p>
 
 ```sh
     scripts": {
