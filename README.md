@@ -48,9 +48,9 @@ npm i --save-dev nodemon
 ```
 
 <p>in your project folder create a file called .eslintrc.json. After that copy and paste these below code.</p>
-<p>s.eslintrc.json:</p>
+<p>.eslintrc.json:</p>
 
-    ```sh
+```sh
     {
     "extends": ["prettier", "airbnb-base"],
     "parserOptions": {
@@ -78,7 +78,7 @@ npm i --save-dev nodemon
     "plugins": ["prettier"]
     }
 
-````
+```
 
 <p>Copy this script in your projects package.json file</p>
 <p>package.json:</p>
@@ -87,4 +87,10 @@ npm i --save-dev nodemon
     scripts": {
     "start": "NODE_ENV=development nodemon app.js",
     },
-````
+```
+
+# Then run your project
+
+```sh
+    npm start
+```
